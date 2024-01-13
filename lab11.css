@@ -1,0 +1,78 @@
+.container{
+    position: absolute;
+    width: 600px;
+    left: 10px;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 75%/1.3 verdana, geneva, lucida, arial, sans-serif;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+}
+
+.quote{
+    position: absolute;
+    left: 365px;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 45px 5px;
+}
+
+.text{
+    margin: 10px 5px;
+    padding: 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.piping:after{
+    font-weight: normal;
+    content: " | ";
+}
+
+footer nav ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.toplist, .bottomlist{
+    position: absolute;
+}
+
+.toplist{
+    left: 80px;
+    bottom: 1px;
+}
+
+.bottomlist{
+    left: 218px;
+}
+
+
