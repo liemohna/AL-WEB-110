@@ -1,0 +1,140 @@
+.container{
+    margin: 0 auto;
+    width: 600px;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.olmstead{
+    text-transform: uppercase;
+    color: mediumblue;
+    font-size: 19px;
+}
+
+.olmsteaditem:first-letter{
+    color: red;
+}
+
+.quote{
+    font-size: 13px;
+    color: mediumblue;
+    padding: 4px 0 0 8px;
+}
+
+.masthead{
+    margin: 15px 0 18px 9px;
+    height: 20px;
+}
+
+header{
+    margin: 0;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    background-color: white;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+
+header ul, nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav a:hover{
+    background: dimgray;
+    color: white;
+}
+
+header nav a{
+    padding: 5px 7px;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    background: #95C7FF;
+    color: #000;
+    font-size: 13.4px;
+    transition: all 1s;
+    text-decoration: none;
+}
+
+header ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 20px;
+    padding: 0;
+    margin: 15px 0 20px 2px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+main{
+    margin: 5px 5px 0px 10px;
+    height: 665px;
+}
+
+main p, main ul li{
+    font-size: 13px;
+}
+
+main ul li{
+    letter-spacing: 0.25px;
+}
+
+footer nav ul{
+    text-align: center;
+}
+
+footer nav ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav a{
+    background: #fff;
+    transition: all 0.25s;
+    padding: 2px 5px 2px 5px;
+    margin: 0 5px 0 0;
+    color: blue;
+    font-size: 13.4px;
+}
+
+footer nav a:hover{
+    background-color: darkgray;
+    text-decoration: none;
+    color: white;
+}
+
+.list1{
+    margin: 0 0 5px 0;
+}
+
+.rightborder{
+    border-right: 1px solid #000;
+}
+
+.extra{
+    padding: 2px 5px 2px 5px;
+    font-size: 13.4px;
+}
+
+footer{
+    margin: 0 0 20px 0;
+}
+
+
