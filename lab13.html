@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Annie Liemohn, 11/29/23, Lab 13 -->
+    <title>Contact Form</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Contact page containing a form for users to enter their information.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="lab13.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <header>
+            
+            <h1>Contact Form</h1>
+            
+            <p>Please fill out the following fields so we can reach out to you and get in touch! Thanks.</p>
+            
+            <div class="line"></div>
+            
+        </header>
+
+        <main>
+            <form action="#" method="post">
+                
+                <h2>Contact Info</h2>
+                
+                <p><label>First Name: <input class="float" type="text" size="30" name="firstname" placeholder= "Type here"></label></p>
+                
+                <p><label>Last Name: <input class="float" type="text" size="30" name="lastname" placeholder= "Type here"></label></p>
+                
+                <p><label>Address: <textarea class="float" name="address" cols="23" rows="4" placeholder= "Type here"></textarea></label></p>
+                
+                <p><label>Phone Number: <input class="float" type="tel" name="phoneNumber" size="30" placeholder= "Type here"></label></p>
+                
+                <p><label>Email: <input class="float" type="email" name="emailAddress" size="30" placeholder= "Type here"></label></p>
+                
+                <div class="section">
+                    
+                    <p>Preferred Method&lpar;s&rpar; of Contact:</p> 
+                    
+                    <ul>
+                        <li><label><input type="checkbox" name="1" value="mail">Mail</label></li>
+                        <li><label><input type="checkbox" name="2" value="email">Email</label></li>
+                        <li><label><input type="checkbox" name="3" value="phone">Phone</label></li>
+                    </ul>
+                </div>
+
+                <p><label>Comments/Questions! <textarea class="float" name="commentQuestion" cols="23" rows="4" placeholder= "Type here"></textarea></label></p>
+
+                <p><label><input type="submit" value="Submit Here"></label></p>
+                
+            </form>
+        </main>
+        
+    </div>
+</body>
+</html>
+
