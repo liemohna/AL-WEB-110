@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Annie Liemohn, Lab 5, 09/27/23 -->
+    <title>Contact Form</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="This page serves as a way to get in touch.">
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <p><i>Please fill out the following fields so we can reach out to you and get in touch! Thanks.</i></p>
+    
+    <hr />
+    
+    <table align="center" bgcolor="#ADE6FF" border="0" cellpadding="10" cellspacing="10" width="550">
+        
+        <!-- Head of table -->
+        <thead>
+        <tr>
+            <th colspan="2" scope="col">Contact Info</th>
+        </tr>
+        </thead>
+        
+        <!-- Body of table -->
+        <tbody>
+        
+        <!-- First Name-->
+        <tr bgcolor="#D4F2FF">
+            <td>
+                <label for="fname">First Name:</label>
+            </td>
+            <td>
+                <input type="text" size="30" name="firstname" id="fname" />
+            </td>
+        </tr>
+        
+        <!-- Last Name -->
+        <tr bgcolor="#D4F2FF">
+            <td>
+                <label for="lname">Last Name:</label>
+            </td>
+            <td>
+                <input type="text" size="30" name="lastname" id="lname" />
+            </td>
+        </tr>
+            
+        <!-- Email address -->
+        <tr bgcolor="#D4F2FF">
+            <td valign="top">
+                <label for="homeaddress">Address:</label>
+            </td>
+            <td>
+                <textarea name="address" cols="20" rows="4" id="homeaddress"></textarea>
+            </td>
+        </tr>
+        
+        <!-- Phone number -->
+        <tr bgcolor="#D4F2FF">
+            <td>
+                <label for="telephone">Phone Number:</label>
+            </td>
+            <td>
+                <input type="tel" name="phoneNumber" size="30" id="telephone" />
+            </td>
+        </tr>
+            
+        <!-- Comments/Questions -->
+        <tr bgcolor="#D4F2FF">
+            <td valign="top">
+                <label for="extraInfo">Comments/Questions!</label>
+            </td>
+            <td>
+                <textarea name="commentQuestion" cols="20" rows="4" id="extraInfo"></textarea>
+            </td>
+        </tr>
+        </tbody>
+        
+        <!-- Submit button -->
+        <tfoot>
+        <tr>
+            <td align="center" colspan="2">
+                <br />
+                <label><input type="submit" value="Submit Here"/></label>
+            </td>
+        </tr>
+        </tfoot>
+            
+    </table>
+
+</body>
+</html>
+
