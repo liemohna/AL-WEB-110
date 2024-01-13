@@ -1,0 +1,177 @@
+.container{
+    margin: 0 auto;
+    width: 1040px;
+    height: 821px;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav a, p, h2{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2;
+}
+
+header nav a, main p, h2{
+    color: #fff
+}
+
+h1, h2{
+    font-weight: 700;
+}
+
+.headerdiv{
+    height: 395px;
+    background-image: url(layout5-graphics/moritzburg-castle.jpg);
+}
+
+.logo{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+header nav{
+    position: relative;
+    top: 17px;
+    right: 25px;
+    float: right;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav a:hover, nav a:focus{
+    color: #000;
+}
+
+nav a{
+    transition: color 0.4s ease-in;
+    text-decoration: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+header nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.rightmargin{
+    margin: 0 25px 0 0;
+}
+
+h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    left: 730px;
+    font-family: 'Roboto Slab', serif;
+}
+
+header p{
+    width: 245px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 738px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv{
+    height: 321px;
+}
+
+.castle1, .castle2, .castle3{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: 300px;
+    width: 314px;
+    display: inline-block;
+}
+
+.castle1, .castle2{
+    margin-right: 10px;
+}
+
+.castle1{
+    margin-left: 20px;
+    background-image: url(layout5-graphics/mont-saint-michel-abbey.jpg)
+}
+
+.castle2{
+    margin-left: 10px;
+    background-image: url(layout5-graphics/eilean-donan-castle.jpg)
+}
+
+.castle3{
+    margin-left: 10px;
+    margin-right: 20px;
+    background-image: url(layout5-graphics/neuschwanstein-castle.jpg)
+}
+
+main p, h2{
+    background: rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 230px;
+}
+
+main p{
+    height: 40px;
+    margin: 0;
+    padding: 0 4px 0 8px;
+    font-size: 13px;
+}
+
+h2{
+    margin: 0;
+    padding: 10px 0 0 8px;
+    font-size: 17px;
+}
+
+.footerdiv{
+    height: 105px;
+}
+
+footer nav{
+    position: relative;
+    top: 40px;
+    left: 400px;
+}
+
+footer nav a{
+    color: #666;
+}
+
+.extramargin{
+    margin: 0 40px 0 0;
+}
+
+.facebook, .twitter{
+    position: relative;
+    top: 15px;
+}
+
+.facebook{
+    left: 960px;
+}
+
+.twitter{
+    left: 969px;
+}
+
+
