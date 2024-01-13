@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Annie Liemohn, 10/2/23 -->
+    <title>Animal Exhibits :: Ann Arbor Aquarium</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="This webpage is a representation of the Ann Arbor Aquarium's home webpage as a way to practice using CSS style.">
+    <base href="http://space.wccnet.edu/~aliemohn/web110/layouts/layout2/layout2images/" />
+    <style>
+        body {font: 75%/1.3 verdana, geneva, arial, sans-serif;}
+        h1 {font: bold 180%/1.3 georgia, serif; color: #000076;}
+        h2 {font: bold 100%/1.3 verdana, geneva, arial, sans-serif;}
+        aside h2 {font: bold 140%/1.3 georgia,serif;}
+        input {font-size: 100%;}
+        header, header a, footer a {color: #fff; }
+        header img {display: block;}
+    </style>
+</head>
+    
+<body>
+    <header>
+    <table width="1040" align="center" bgcolor="#02008F">
+    <!-- Logo -->
+    <tr>
+        <th colspan="2"><img alt="Ann Arbor Aquarium logo banner" src="ann-arbor-aquarium-masthead.jpg"></th>
+    </tr>
+    <tr>
+        <td>
+            <!-- Navigation Bar -->
+            <nav aria-label="Homepage navigation bar for Ann Arbor Aquarium">
+            <table cellpadding="10" cellspacing="0">
+                <tr align="center">
+                    <td width="100"><a href="#">Home</a></td>
+                    <td width="140"><b>Animal Exhibits</b></td>
+                    <td width="100"><a href="#">Programs</a></td>
+                    <td width="100"><a href="#">Conservation</a></td>
+                    <td width="100"><a href="#">News</a></td>
+                    <td width="100"><a href="#">Support</a></td>
+
+                </tr>
+            </table>  
+            </nav>
+        </td>
+        <td align="center" width="100"><img alt="Buy tickets here" src="buy-tickets.png"></td>
+    </tr>
+    </table>
+    </header>
+    
+    <main>
+    <!-- Main content table -->
+    <section>
+    <table align="center" cellpadding="30" cellspacing="0" width="1040">
+    <tr>
+        <td width="790">
+            <h1>Animal Exhibits</h1>
+            <!--Inner Table with Info -->
+            <table cellpadding ="0" cellspacing="0">
+            <tr>
+                <!-- Red Siamese Fighting Fish -->
+                <td width="400" valign="top">
+                    <h2>Red Siamese Fighting Fish</h2>
+                    <p>This amazing fish is extremely territorial and will fight to the death if put in the same tank.</p>
+                    <p><i>Facts about the fish:</i></p>
+                    <ul>
+                        <li>They are commonly known as a Betta.</li>
+                        <li>They can't live in the same tank as their own species.</li>
+                        <li>They were bred for their aggression.</li>
+                        <li>They are harmless to humans.</li>
+                    </ul>
+                </td>
+                <td>   
+                    <img align="right" vspace="10" hspace="10" alt="Red Siamese Fighting Fish" src="red-siamese-fighting-fish.jpg">
+                </td> 
+            </tr>
+            <tr>
+                <!-- Sea Wasp Jellyfish -->
+                <td valign="top">
+                    <br />
+                    <h2>Sea Wasp Jellyfish</h2>
+                    <p>This species of jellyfish is the most deadly in the world. If left untreated, the victim can die within three minutes of being stung.</p>
+                    <p><i>Facts about the fish:</i></p>
+                    <ul>
+                        <li>Its tentacles can get up to 15 feet long.</li>
+                        <li>The <q>bell</q> of this animal can get to the size of a basketball.</li>
+                        <li>It is the largest of the Box jellyfish.</li>
+                        <li>They are known to have killed over 100 people.</li>
+                    </ul>
+                </td>
+                <td>
+                    <img align="right" vspace="20" hspace="10" alt="Sea Wasp Jellyfish" src="sea-wasp-jellyfish.jpg">
+                </td>
+            </tr>
+            </table>
+        </td>
+        
+        <!-- Newsletter Aside -->
+        <td valign="top" width="250">
+            <aside>
+                <h2>Newsletter Sign Up</h2>
+                <p>Sign up and receive monthly updates about our animals and exhibits. You get special access to exhibit openings and volunteer opportunities.</p>
+                <form action="#" method="post">
+                    <label>First Name: <input type="text" size="30" name="firstname"/></label><br />
+                    <br />
+                    <label>Last Name: <input type="text" size="30" name="lastname"/></label><br />
+                    <br />
+                    <label>Email address: <input type="text" size="30"/></label><br />
+                    <br />
+                    <label><input type="image" alt="Turn in form" src="submit-button.png"></label>
+                </form>
+            </aside>
+        </td>
+    </tr>   
+    </table>
+    </section>
+    </main>
+    
+    <footer>
+        <nav>
+        <table align="center" width="1040" cellpadding="15" cellspacing="0" bgcolor="#4B36FF">
+        <tr align="center">
+            <td width="170"><a href="#">Privacy and Terms</a></td>
+            <td width="70"><a href="#">Copyright</a></td>
+            <td width="100"><a href="#">Accreditation</a></td>
+            <td width="700">&nbsp;</td>
+        </tr>
+        </table>
+        </nav>
+        <br />
+        <br />
+        <br />
+    </footer>
+</body>
+</html>
